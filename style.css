@@ -173,7 +173,7 @@ div.redes a img{
     flex-direction: row;
 }
 .img1{
-    --tamaño: 30rem;
+    --tamaño: 10vh;
 
     width: var(--tamaño);
     height: calc(var(--tamaño)*1.2);
