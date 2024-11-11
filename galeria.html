@@ -3,24 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Xiuhtla Tours - Empresa de Tours</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <a href="index.html"><img class="logo" src="imgs/logo.png" alt="Aqui va el logo"></a>
-        </div>
-        <div class="nav-btns">
-            <ul class="btn-nav">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="conocenos.html">Nosotros</a></li>
-                <li><a href="galeria.html">Galerias</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="contecto.html">Contactanos</a></li>
+    <!-- Contenedor de Galería a Pantalla Completa con Barra Lateral -->
+    <!-- Botón de regreso al inicio -->
+    
+
+    <section class="gallery-section">
+        <!-- Barra Lateral de Filtros -->
+        <aside class="gallery-sidebar">
+            <h2>Lugares</h2>
+            <ul>
+                <li><button onclick="filterGallery('lugar1')">Lugar 1</button></li>
+                <li><button onclick="filterGallery('lugar2')">Lugar 2</button></li>
+                <li><button onclick="filterGallery('lugar3')">Lugar 3</button></li>
+                <li><button onclick="filterGallery('lugar4')">Lugar 4</button></li>
+                <li><button onclick="showAll()">Mostrar Todo</button></li> <!-- Botón para mostrar todas las imágenes -->
             </ul>
+        </aside>
+
+        <!-- Galería de Imágenes -->
+        <div class="gallery-grid" id="galleryGrid">
+            <!-- Imágenes de ejemplo; cada una tiene una clase que representa el lugar -->
+            <img src="img/lugar1_1.jpg" alt="Imagen de Lugar 1" class="gallery-item lugar1">
+            <img src="img/lugar1_2.jpg" alt="Imagen de Lugar 1" class="gallery-item lugar1">
+            <img src="img/lugar2_1.jpg" alt="Imagen de Lugar 2" class="gallery-item lugar2">
+            <img src="img/lugar2_2.jpg" alt="Imagen de Lugar 2" class="gallery-item lugar2">
+            <img src="img/lugar3_1.jpg" alt="Imagen de Lugar 3" class="gallery-item lugar3">
+            <img src="img/lugar3_2.jpg" alt="Imagen de Lugar 3" class="gallery-item lugar3">
+            <img src="img/lugar4_1.jpg" alt="Imagen de Lugar 4" class="gallery-item lugar4">
+            <img src="img/lugar4_2.jpg" alt="Imagen de Lugar 4" class="gallery-item lugar4">
         </div>
-    </header>
+    </section>
+    <a href="index.html" class="back-to-top-button">
+        <i class="fa-solid fa-arrow-left"></i> Inicio
+    </a>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Xiuhtla Tours. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a> | <a href="#">Instagram</a>
+            </div>
+        </footer>
+    
+        <!-- AOS JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <!-- Scroll JS -->
+        <script src="js/scroll.js"></script>
+        <!-- Menu móvil -->
+        <script src="js/menu-mobile.js"></script>
+        <script src="js/gallery.js"></script>
+    
+</body>
+</html>
+
