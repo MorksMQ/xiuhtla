@@ -646,6 +646,8 @@ footer .social-links a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 2rem;
 }
 .m24{
     width: 60vw;
@@ -661,6 +663,18 @@ footer .social-links a:hover {
 }
 .m25{
     width: 30vw;
+}
+.m26{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 2rem;
+}
+.m27{
+    display: flex;
+    align-items: flex-start;
+
+    gap: 1rem;
 }
 .flex{
     display: flex;
