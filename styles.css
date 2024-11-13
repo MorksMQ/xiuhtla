@@ -1,10 +1,15 @@
 /* Scroll suave */
 html {
     scroll-behavior: smooth;
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
@@ -231,6 +236,24 @@ body {
     background-color: #1EBE5D;
 }
 
+.whatsapp-button1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    color: #fff;
+    width: 150px; /* Ancho y alto iguales para hacer el botón redondo */
+    height: 150px;
+    border-radius: 50%; /* Hace el botón completamente redondo */
+    text-decoration: none;
+    font-size: 80px; /* Tamaño del ícono */
+    transition: background 0.3s;
+}
+
+.whatsapp-button1:hover {
+    background-color: #1EBE5D;
+}
+
 .facebook-button {
     display: inline-flex;
     align-items: center;
@@ -248,6 +271,25 @@ body {
 .facebook-button:hover {
     background-color: #196dda;
 }
+
+.facebook-button1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1877F2;
+    color: #fff;
+    width: 150px; /* Ancho y alto iguales para hacer el botón redondo */
+    height: 150px;
+    border-radius: 50%; /* Hace el botón completamente redondo */
+    text-decoration: none;
+    font-size: 80px; /* Tamaño del ícono */
+    transition: background 0.3s;
+}
+
+.facebook-button1:hover {
+    background-color: #196dda;
+}
+
 
 .instagram-button {
     display: inline-flex;
@@ -267,7 +309,23 @@ body {
     background-color: #ce3a55;
 }
 
+.instagram-button1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E4405F;
+    color: #fff;
+    width: 150px; /* Ancho y alto iguales para hacer el botón redondo */
+    height: 150px;
+    border-radius: 50%; /* Hace el botón completamente redondo */
+    text-decoration: none;
+    font-size: 80px; /* Tamaño del ícono */
+    transition: background 0.3s;
+}
 
+.instagram-button1:hover {
+    background-color: #ce3a55;
+}
 
 /* Estilo para el botón de regreso al inicio */
 .back-to-top-button {
@@ -492,6 +550,117 @@ footer .social-links a:hover {
 }
 .m5{
     width: 45px;
+}
+.m6{
+    height: 100vh;
+}
+.m7{
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+   
+}
+
+.m9{
+    width: 40vw;
+}
+.m10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.m11{
+    text-align: center;
+}
+.m12{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 3rem;
+}
+.m13{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.m14{
+    width: 4rem;
+    height: auto;
+}
+.m14:hover{
+    width: 5rem;
+    height: auto;
+}
+.m15{
+    width: 15vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.m16{
+    display: flex;
+    gap: 3rem;
+}
+.m17{
+    font-size: 1.2rem;
+}
+.m18{
+    text-align: center;
+}
+.m19{
+    font-size: 3rem;
+}
+.m20{
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5rem;
+}
+.m21{
+    height: 30vw;
+    width: 30vw;
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 35px;
+}
+.m22{
+    width: 10px;
+    height: 60vh;
+    background-color: #010101;
+    border-radius: 15px;
+}
+.m23{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.m24{
+    width: 60vw;
+
+    border: 4px solid #000;
+    border-radius: 15px;
+
+    padding: 2rem 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.m25{
+    width: 30vw;
 }
 .flex{
     display: flex;
