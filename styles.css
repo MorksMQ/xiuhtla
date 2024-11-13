@@ -676,6 +676,10 @@ footer .social-links a:hover {
 
     gap: 1rem;
 }
+.m28 img{
+    width: 25vw;
+    border-radius: 35px;
+}
 .flex{
     display: flex;
 }
